@@ -1,6 +1,3 @@
-The dataset is public at https://zenodo.org/records/3431873 <br>
-The preprocessed dataset is available at https://drive.google.com/drive/folders/1JMtJm5mNArOx4_WUlrRXp5xUXaJq-_IH?usp=sharing <br>
-
 ### Medical_Image_Analysis_Term_Project <br>
 ### Spring Semester 2024
 Python Implementation of U-Net and scSE (spatial and channel squeeze and excitation) block <br>
@@ -19,7 +16,10 @@ Left Kidney: 175-200 <br>
 Spleen: 240-255 <br>
 These were converted to integer labels in $[0,1,...4]$, 4 representing the background class
 #### Images
-DICOM images were scaled to uint8 representation
+DICOM images were scaled to uint8 representation <br>
+
+The dataset is public at https://zenodo.org/records/3431873 <br>
+The preprocessed dataset is available at https://drive.google.com/drive/folders/1JMtJm5mNArOx4_WUlrRXp5xUXaJq-_IH?usp=sharing <br>
 
 
 
