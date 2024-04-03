@@ -1,4 +1,5 @@
-### Medical_Image_Analysis_Term_Project
+### Medical_Image_Analysis_Term_Project <br>
+### Spring Semester 2024
 Python Implementation of U-Net and scSE (spatial and channel squeeze and excitation) block <br>
 for improved segmentation of organs in the CHAOS Dataset.
 
