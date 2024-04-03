@@ -4,6 +4,21 @@ Python Implementation of U-Net and scSE (spatial and channel squeeze and excitat
 for improved segmentation of organs in the CHAOS Dataset. Methods obtained from <br>
 A. G. Roy, N. Navab and C. Wachinger, "Recalibrating Fully Convolutional Networks With <br> Spatial and Channel “Squeeze and Excitation” Blocks," in IEEE Transactions on Medical Imaging, vol. 38, no. 2, pp. 540-549, Feb. 2019, doi: 10.1109/TMI.2018.2867261.
 
+### Data preparation
+#### Masks
+Binary masks were available for the CT images. For the mutli-organ segmentation of MR images <br>
+the binary masks for each organ were stacked channel wise to create one-hot encodings <br>
+These were then converted to a single channel mask with integer labels.<br>
+Approximate pixel ranges for labels are: <br>
+Liver: 55-70 <br>
+Right Kidney: 110-135 <br>
+Left Kidney: 175-200 <br>
+Spleen: 240-255 <br>
+These were converted to integer labels in $[0,1,...4]$, 4 representing the background class
+#### Images
+DICOM images were scaled to uint8 representation
+
+
 
 
 Team Members: <br>
