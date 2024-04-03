@@ -1,3 +1,6 @@
+The dataset is public at $\url{https://zenodo.org/records/3431873}$ <br>
+The preprocessed dataset is available at $\url{https://drive.google.com/drive/folders/1JMtJm5mNArOx4_WUlrRXp5xUXaJq-_IH?usp=sharing}$ <br>
+
 ### Medical_Image_Analysis_Term_Project <br>
 ### Spring Semester 2024
 Python Implementation of U-Net and scSE (spatial and channel squeeze and excitation) block <br>
