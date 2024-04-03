@@ -6,7 +6,7 @@ A. G. Roy, N. Navab and C. Wachinger, "Recalibrating Fully Convolutional Network
 
 ### Data preparation
 #### Masks
-Binary masks were available for the CT images. For the mutli-organ segmentation of MR images <br>
+Binary masks were available for the CT images. For the multi-organ segmentation of MR images <br>
 the binary masks for each organ were stacked channel wise to create one-hot encodings <br>
 These were then converted to a single channel mask with integer labels.<br>
 Approximate pixel ranges for labels are: <br>
