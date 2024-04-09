@@ -1,6 +1,6 @@
 #### Corrections:
 1. Symbol for space of Reals
-2. Channels first instead if channels last
+2. Channels first instead of channels last
 
 ### Medical_Image_Analysis_Term_Project <br>
 ### Spring Semester 2024
