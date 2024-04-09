@@ -1,3 +1,7 @@
+#### Corrections:
+1. Symbol for space of Reals
+2. Channels first instead if channels last
+
 ### Medical_Image_Analysis_Term_Project <br>
 ### Spring Semester 2024
 Python Implementation of U-Net and scSE (spatial and channel squeeze and excitation) block <br>
